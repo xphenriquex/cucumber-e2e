@@ -1,7 +1,8 @@
-Feature: to test home page functionality
+Feature: to test login functionality
 
-    Scenario: to test home page
+    Scenario: to test login functionality
         Given User is on home page
         When User enter login details
-        Then Login should be successfull
-        And Home page should be displayed
+        Then Home page should be displayed
+        Then Upon logout
+        And Logout should be successful
